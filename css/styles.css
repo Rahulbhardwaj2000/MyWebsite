@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    /* default margin for body is 8px from all sides */
+    text-align: center;
+    /* text-align works fine only for inline elements */
+    font-family: 'Merriweather', serif;
+    color: #40514E
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    width: 8%;
+    border-width: 15px;
+    border-bottom: none;   
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 0;
+    /* this is required as h1 takes margin on top and bottom */
+    /*width: 10%;*/
+    /*margin: 0 auto 0 auto;*/
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    /*line-height: 2;*/
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.descr {
+    font-weight: normal;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
+}
+
+.middle-container {
+    margin: 100px 0 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF; 
+    padding: 50px 0 20px;
+}
+
+.dba {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 280px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.prof-image {
+    height: 250px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+}
+
+.code-image {
+    width: 25%;
+    float: left; /* this moves image to left and takes text to its right */
+    margin-right: 30px;
+}
+
+.chilli-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.8rem;
+    padding: 15px 0;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.BUTTON_VNK {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #11999E 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_VNK:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+
+/*
+.code-skill-descr {
+    clear: left;
+}
+
+.chilli-skill-descr {
+    clear: right;
+}
+*/
